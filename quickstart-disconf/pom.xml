@@ -8,9 +8,9 @@
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   <groupId>org.quickstart</groupId>
-  <artifactId>quickstart-config-xdiamond</artifactId>
+  <artifactId>quickstart-disconf</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>quickstart-config-xdiamond</name>
+  <name>quickstart-config-disconf</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

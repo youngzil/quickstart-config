@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<parent>
 		<groupId>org.quickstart</groupId>
 		<artifactId>quickstart-all</artifactId>
@@ -20,10 +22,10 @@
 	</properties>
 
 	<modules>
-		<module>quickstart-config-apollo</module>
-		<module>quickstart-config-disconf</module>
-		<module>quickstart-config-xdiamond</module>
-    <module>quickstart-config-xxl-conf</module>
-  </modules>
+		<module>quickstart-apollo</module>
+		<module>quickstart-disconf</module>
+		<module>quickstart-xdiamond</module>
+		<module>quickstart-xxl-conf</module>
+	</modules>
 
 </project>

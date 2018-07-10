@@ -3,27 +3,33 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
 	xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.quickstart</groupId>
 		<artifactId>quickstart-config</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.quickstart</groupId>
-	<artifactId>quickstart-config-xxl-conf</artifactId>
+	<artifactId>quickstart-apollo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>quickstart-config-xxl-conf</name>
+	<name>quickstart-config-apollo</name>
 	<url>http://maven.apache.org</url>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<apollo.version>0.10.2</apollo.version>
 	</properties>
+
 	<dependencies>
 
 		<dependency>
-			<groupId>com.xuxueli</groupId>
-			<artifactId>xxl-conf-core</artifactId>
-			    <version>1.4.2</version>
+			<groupId>com.ctrip.framework.apollo</groupId>
+			<artifactId>apollo-client</artifactId>
+			<version>${apollo.version}</version>
 		</dependency>
 
 	</dependencies>
+
+
 </project>
